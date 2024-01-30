@@ -1,0 +1,29 @@
+.main{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to top left, rgb(255, 85, 0), rgb(157, 255, 0));
+    height: 40px;
+    display: flex;
+}
+ul li,a{
+    text-decoration: none;
+    list-style: none;
+   float: left;
+   margin-right: 50px;
+   color: rgb(85, 11, 234);
+}
+#logo{
+    font-size: xx-large;
+    margin-top: -15px;
+    font-weight: bolder;
+    
+}
+img{
+    width:104% ;
+    margin-top: 5px;
+    position:relative;
+    left: -40px;
+}
+/* @media screen and(max-width:425) {
+
+   }  */
