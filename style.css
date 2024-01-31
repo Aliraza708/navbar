@@ -4,26 +4,39 @@
     background-image: linear-gradient(to top left, rgb(255, 85, 0), rgb(157, 255, 0));
     height: 40px;
     display: flex;
+    justify-content: center;
+    
+    
 }
-ul li,a{
-    text-decoration: none;
+ul li{ padding-right:10px;
     list-style: none;
    float: left;
-   margin-right: 50px;
    color: rgb(85, 11, 234);
 }
 #logo{
+  
     font-size: xx-large;
     margin-top: -15px;
     font-weight: bolder;
     
 }
+
+
 img{
     width:104% ;
     margin-top: 5px;
     position:relative;
-    left: -40px;
-}
-/* @media screen and(max-width:425) {
+    left: -40px; }
 
-   }  */
+@media screen and (max-width:500px) {
+  ul li{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-right: 0px;
+
+ }
+ span{
+    visibility: hidden;
+ }}
+ 
